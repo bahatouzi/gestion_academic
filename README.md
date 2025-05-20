@@ -1,6 +1,7 @@
-# Titre du Projet
+# Gestion Academic
 
-Une brève description de votre projet. Expliquez ce qu'il fait et à quoi il sert.
+Ce projet est une application de gestion academic, probablement développée en Java avec le framework Spring Boot et gérée par Maven.
+Il sert à organiser la vie academic.
 
 ## Table des Matières
 
@@ -13,25 +14,21 @@ Une brève description de votre projet. Expliquez ce qu'il fait et à quoi il se
 - [Contributing](#contributing)
 - [Licence](#licence)
 
-## Description
-
-Description plus détaillée du projet, de ses fonctionnalités principales et de ses objectifs.
 
 ## Technologies Utilisées
 
-Liste des principales technologies et frameworks utilisés dans ce projet (par exemple, Java, Spring Boot, Maven, etc.).
+Ce projet utilise les technologies principales suivantes :
 
-- Technologie 1
-- Technologie 2
-- ...
+-   **Java** [Version spécifique si connue]
+-   **Spring Boot** [Version spécifique si connue]
+-   **Apache Maven** [Version spécifique si connue]
 
 ## Prérequis
 
 Assurez-vous d'avoir les éléments suivants installés sur votre machine :
 
-- Java Development Kit (JDK) [version]
-- Apache Maven [version]
-- ...
+-   Java Development Kit (JDK) **11** ou supérieur (recommandé)
+-   Apache Maven **3.6** ou supérieur
 
 ## Installation
 
@@ -52,13 +49,14 @@ Suivez ces étapes pour installer le projet localement :
 
 ## Utilisation
 
-Décrivez comment exécuter le projet ou ses différentes parties.
+Pour exécuter l'application, suivez ces étapes :
 
-Par exemple, pour exécuter l'application principale :
-
-```bash
-mvn spring-boot:run 
-```
+1.  Assurez-vous que le projet est construit (`mvn clean install`).
+2.  Exécutez l'application Spring Boot via Maven :
+    ```bash
+    mvn spring-boot:run 
+    ```
+3.  L'application devrait être accessible à l'adresse [Adresse et port par défaut, ex: http://localhost:8080].
 
 ## Structure du Projet
 
@@ -74,7 +72,7 @@ gestion_catalogue/
 │       └── java/ # Code source des tests
 ├── target/ # Fichiers générés par Maven
 ├── pom.xml # Fichier de configuration Maven
-├── README.md # Ce fichier
+├── README.md 
 └── ... autres fichiers et dossiers
 ```
 
@@ -101,3 +99,4 @@ Pour contribuer à ce projet, veuillez suivre les étapes suivantes :
     git push origin nom-de-votre-branche
     ```
 7.  Ouvrez une **Pull Request** (Demande de Tirage) depuis votre fork vers le dépôt original, en décrivant vos modifications.
+
